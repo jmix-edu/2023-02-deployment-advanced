@@ -25,12 +25,12 @@ public class JmixpmApplication {
         SpringApplication.run(JmixpmApplication.class, args);
     }
 
-    @Bean
+    /*@Bean
     @Primary
     @ConfigurationProperties("main.datasource")
     DataSourceProperties dataSourceProperties() {
         return new DataSourceProperties();
-    }
+    }*/
 
     @Bean
     @Primary
